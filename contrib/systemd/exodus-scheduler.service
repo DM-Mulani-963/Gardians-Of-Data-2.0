@@ -1,0 +1,16 @@
+[Unit]
+Description=DATA Rakshak (Guardians of Data) Scheduler Service
+After=network.target
+
+[Service]
+Type=simple
+User=datarakshak
+Group=datarakshak
+WorkingDirectory=/var/datarakshak
+Environment=DJANGO_SETTINGS_MODULE=datarakshak.settings.production
+ExecStart=/usr/local/bin/pipenv run celery -A datarakshak.core beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+ 

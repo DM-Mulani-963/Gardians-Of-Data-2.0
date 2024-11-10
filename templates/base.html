@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA Rakshak - Guardians of Data</title>
+    <link rel="stylesheet" href="{% static 'css/datarakshak-theme.css' %}">
+    <link rel="icon" type="image/svg+xml" href="{% static 'images/datarakshak-logo.svg' %}">
+</head>
+<body>
+    {% include 'includes/header.html' %}
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+    {% include 'includes/footer.html' %}
+</body>
+</html> 

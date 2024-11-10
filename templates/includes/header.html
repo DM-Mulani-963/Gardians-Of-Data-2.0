@@ -1,0 +1,17 @@
+<header class="dr-header">
+    <div class="container">
+        <div class="brand-container">
+            <img src="{% static 'images/datarakshak-logo.svg' %}" alt="DATA Rakshak Logo" class="dr-logo">
+            <div class="brand-text">
+                <h1 class="dr-brand-text">DATA Rakshak</h1>
+                <p class="dr-subtitle">Guardians of Data</p>
+            </div>
+        </div>
+        <nav class="dr-nav">
+            <a href="{% url 'home' %}" class="dr-nav-link">Home</a>
+            <a href="{% url 'analysis' %}" class="dr-nav-link">Analysis</a>
+            <a href="{% url 'trackers' %}" class="dr-nav-link">Trackers</a>
+            <a href="{% url 'reports' %}" class="dr-nav-link">Reports</a>
+        </nav>
+    </div>
+</header> 

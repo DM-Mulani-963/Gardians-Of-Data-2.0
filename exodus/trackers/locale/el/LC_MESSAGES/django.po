@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: exodus-privacy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-26 13:23+0000\n"
+"PO-Revision-Date: 2020-05-04 16:38\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: exodus-privacy\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: trackers.po\n"
+
+#: trackers/templates/new_api_key.html:43
+#: trackers/templates/trackers_admin_list.html:24
+msgid "You need to be registered"
+msgstr "Πρέπει να έχετε εγγραφεί"
+
+#: trackers/templates/stats_details.html:9
+#: trackers/templates/trackers_list.html:13
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: trackers/templates/stats_details.html:11
+#: trackers/templates/stats_details.html:14
+msgid "Most frequent trackers"
+msgstr "Τα πιο συχνά trackers"
+
+#: trackers/templates/stats_details.html:26
+#: trackers/templates/trackers_list.html:46
+#, python-format
+msgid "found in %(count)s application"
+msgid_plural "found in %(count)s applications"
+msgstr[0] "βρέθηκε σε %(count)s εφαρμογή"
+msgstr[1] "βρέθηκαν σε %(count)s εφαρμογές"
+
+#: trackers/templates/tracker_details.html:24
+#, python-format
+msgid "Present in: <b>%(count)s application</b>"
+msgid_plural "Present in: <b>%(count)s applications</b>"
+msgstr[0] "Παρών σε: <b>%(count)s εφαρμογή</b>"
+msgstr[1] "Παρών σε: <b>%(count)s εφαρμογές</b>"
+
+#: trackers/templates/tracker_details.html:32
+msgid "Tracker web page"
+msgstr "Σελίδα Ιστού Tracker"
+
+#: trackers/templates/tracker_details.html:44
+msgid "Detection rules"
+msgstr "Κανόνες ανίχνευσης"
+
+#: trackers/templates/tracker_details.html:45
+msgid "Code detection rule:"
+msgstr "Κανόνας ανίχνευσης κώδικα:"
+
+#: trackers/templates/tracker_details.html:47
+msgid "Network detection rule:"
+msgstr "Κανόνας ανίχνευσης δικτύου:"
+
+#: trackers/templates/tracker_details.html:54
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: trackers/templates/tracker_details.html:66
+msgid "Latest reports with this tracker"
+msgstr "Τελευταίες αναφορές με αυτό το tracker"
+
+#: trackers/templates/trackers_list.html:8
+msgid "Trackers"
+msgstr "Trackers"
+
+#: trackers/templates/trackers_list.html:12
+msgid "known tracker"
+msgid_plural "known trackers"
+msgstr[0] "γνωστό tracker"
+msgstr[1] "γνωστά trackers"
+
+#: trackers/templates/trackers_list.html:19
+msgid "Sorted by"
+msgstr "Ταξινομημένο κατά"
+
+#: trackers/templates/trackers_list.html:23
+msgid "Alphabetical order"
+msgstr "Αλφαβητική σειρά"
+
+#: trackers/templates/trackers_list.html:26
+msgid "Number of applications"
+msgstr "Αριθμός εφαρμογών"
+
+#: trackers/templates/trackers_list.html:32
+msgid "Search by name"
+msgstr "Αναζήτηση ανά όνομα"
+
+#: trackers/templates/trackers_list.html:84
+msgid "No trackers are available"
+msgstr "Δεν υπάρχουν διαθέσιμα trackers"
+
+#: trackers/views.py:26 trackers/views.py:37 trackers/views.py:53
+#: trackers/views.py:75
+msgid "Tracker does not exist"
+msgstr "Το tracker δεν υπάρχει"

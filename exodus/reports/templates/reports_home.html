@@ -1,0 +1,27 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block head %}
+  <meta property="og:description" content="{% trans "Search reports by application name, handle or URL" %}">
+  <meta name="description" content="{% trans "Search reports by application name, handle or URL" %}">
+  <meta property="og:title" content="{% trans "Reports" %}">
+  <title>{% trans "Reports" %} - εxodus</title>
+{% endblock %}
+{% block content %}
+  {% load static %}
+  <div class="row justify-content-md-center">
+    <div class="col-lg-8 col-centered">
+      <div class="text-center">
+        <h1 class="main-title">
+          {% trans "Reports" %}
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  {% include "snippets/reports_search.html" %}
+
+  {% include "snippets/reports_links.html" %}
+
+  {% include "snippets/reports_search_tpl.html" %}
+{% endblock %}

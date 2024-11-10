@@ -1,0 +1,64 @@
+:root {
+  /* Primary Colors */
+  --dr-primary: #2E7D32;      /* Main Green */
+  --dr-secondary: #4CAF50;    /* Secondary Green */
+  --dr-light: #A5D6A7;       /* Light Green for backgrounds */
+  --dr-dark: #1B5E20;        /* Dark Green for text */
+  
+  /* Additional Colors */
+  --dr-accent: #81C784;      /* Accent Green */
+  --dr-background: #F1F8E9;  /* Very Light Green Background */
+  --dr-text: #212121;        /* Dark Text */
+  --dr-text-light: #FFFFFF;  /* Light Text */
+}
+
+/* Header Styles */
+.dr-header {
+    background-color: var(--dr-primary);
+    color: var(--dr-text-light);
+}
+
+/* Navigation */
+.dr-nav {
+    background-color: var(--dr-dark);
+}
+
+.dr-nav-link {
+    color: var(--dr-text-light);
+}
+
+.dr-nav-link:hover {
+    background-color: var(--dr-secondary);
+}
+
+/* Buttons */
+.dr-button {
+    background-color: var(--dr-secondary);
+    color: var(--dr-text-light);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.dr-button:hover {
+    background-color: var(--dr-primary);
+}
+
+/* Cards and Containers */
+.dr-card {
+    background-color: var(--dr-background);
+    border: 1px solid var(--dr-light);
+    border-radius: 8px;
+}
+
+/* Brand Text */
+.dr-brand-text {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dr-primary);
+    font-weight: bold;
+}
+
+.dr-subtitle {
+    color: var(--dr-secondary);
+    font-style: italic;
+} 
